@@ -1,0 +1,28 @@
+@media print {
+	header, footer {
+		display: none;
+	}
+	body {
+		width: 100%;
+		box-shadow: none;
+	}
+	.tartalom section p, fieldset, article p {
+		break-inside: avoid;
+	}
+	.tartalom figure {
+		display: none;
+	}
+	img {
+		max-width: 80%;
+		height: auto;
+	}
+	img.palya {
+		height: 80%;
+		width: auto;
+		transform: rotate(-90deg);
+	}
+	.tartalom h1 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}

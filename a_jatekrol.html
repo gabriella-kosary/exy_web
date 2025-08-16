@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css">
+    <link rel="alternate stylesheet" type="text/css" href="nagybetus.css" title="nagybetus">
+    <script src="styleSheetSwitcher.js"></script>
+    <title>A játékról - Exy, mint sport</title>
+</head>
+<body>
+    <nav id="tartalomraugras">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+
+    <header>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-3" id="ikon">
+                <img src="media/ikon.png" alt="">
+                <span lang="en">EXY</span>
+            </div>
+            <div class="col-6 col-sm-8 col-md-8 col-lg-8 col-xl-9 col-xxl-9" id="menusor">
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Az <span lang="en">Exy</span> eredete</a>
+                        </li>
+                        <li>
+                            <a href="a_jatekrol.html" class="aktiv">A játékról</a>
+                        </li>
+                        <li>
+                            <a href="szabalyok.html">Szabályok</a>
+                        </li>
+                        <li>
+                            <a href="kerdoiv.html">Kérdőív</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <nav id="gyengenlato">
+            <a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false">Nagybetűs változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false">Normál változat</a>
+        </nav>
+    </header>
+
+    <div class="tartalom" id="tartalom">
+        <h1>A játékról</h1>
+        <section id="palya" accesskey="1">
+            <h2>A pálya</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7 col-xl-7 col-xxl-7">
+                    <p>Egy átlagos <span lang="en">Exy</span> pálya 60 <span lang="en">yard</span> széles, 100 <span lang="en">yard</span>
+                        hosszú és 10 <span lang="en">yard</span> magas (ez körülbelül 55 x 91 x 9 méter). Ezt egy fél
+                        hüvelyk (kb. 1,2 cm) vastag plexi veszi körül, valamint fedi le felülről. Ez védi meg a közönséget
+                        a kósza labdáktól, valamint segít a passzolásban is, mivel a földről, a plafonról és a pálya
+                        oldaláról is könnyen visszapattan a labda, ezzel nagyobb szabadságot adva a játékosoknak.</p>
+                    <p>A pálya két végén található a két ajtó, amin keresztül a játékosok bemehetnek a pályára. Ezeket
+                        az ajtókat játék közben tilos kinyitni, mivel balesetveszélyes. Csak akkor nyithatók, ha a labda
+                        éppen nincs játékban. Emiatt csak akkor tudnak játékost cserélni a csapatok, ha valami miatt
+                        megáll a játék.</p>
+                    <p>A játéktér negyedekre van osztva 3 vonal által. A kapuk, amik 3 <span lang="en">yard</span>
+                        magasak és 7 <span lang="en">yard</span> szélesek (körülbelül 2,7 méter x 6,4 méter) a pálya két
+                        végén, vastag vonallal vannak kirajzolva a falon. Beépített szenzorok érzékelik, ha nekik megy a
+                        labda és pirosra festik a falat, ezzel jelezve a gólt és 1 ponttal növelve a csapat pontszámát.
+                        A kapu vonalát eltaláló labda nem számít gólnak. A kapu előtt ki van jelölve egy ugyanakkora
+                        terület, mint a kapu (2,7 x 6,4 méter), ahol a kapuson kívül más játékos nem tartózkodhat. A
+                        büntető lövéseket pedig a kapu előtti negyed felétől lövik.</p>
+                    <p>Egy meccs két 45 perces játékidőből és közöttük egy 15 perces szünetből áll. A játék lényege,
+                        hogy az adott csapat több pontot szerezzen, mint ellenfele. Ha a meccs végén döntetlen születik,
+                        hosszabbítással és büntetőlövésekkel határozzák meg a nyertest.</p>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <img class="img-fluid palya" src="media/exy_court.jpg" alt="Egy Exy pálya" title="Egy Exy pálya">
+                </div>
+            </div>
+        </section>
+        
+        <section id="jatekosok" accesskey="2">
+            <h2>A játékosok</h2>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <h3>Ismert csapatok</h3>
+                    <table class="table table-light table-striped">
+                        <caption>
+                            <strong>Ismert csapatok</strong>
+                            <details>
+                                <summary>Súgó</summary>
+                                <p>A táblázatban a csapatok ismert adatai (Egyetem, Csapatnév, Mezszín) találhatóak. A nem ismert adatok helyén kötőjel látható.</p>
+                            </details>
+                        </caption>
+                        <tr>
+                            <th scope="col">Egyetem</th>
+                            <th scope="col">Csapatnév</th>
+                            <th scope="col">Mezszín</th>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Palmetto State University</span></td>
+                            <td><span lang="en">Foxes</span></td>
+                            <td>Narancs, fehér</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Edgar Allan University</span></td>
+                            <td><span lang="en">Ravens</span></td>
+                            <td>Fekete, piros</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">University of South California</span></td>
+                            <td><span lang="en">Trojans</span></td>
+                            <td>Piros, arany</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Breckenridge University</span></td>
+                            <td><span lang="en">Jackals</span></td>
+                            <td>Barna, fekete</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">JD Campbell University</span></td>
+                            <td><span lang="en">Tornados</span></td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Binghamton University</span></td>
+                            <td><span lang="en">Bearcats</span></td>
+                            <td>Zöld, fehér</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">University of Texas</span></td>
+                            <td><span lang="en">Longhorns</span></td>
+                            <td>Fehér, narancs</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Belmonte University</span></td>
+                            <td><span lang="en">Terrapins</span></td>
+                            <td>Zöld</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">University of Vermont</span></td>
+                            <td><span lang="en">Catamounts</span></td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">USC Columbia</span></td>
+                            <td><span lang="en">-</span></td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Pennsylvania State</span></td>
+                            <td><span lang="en">Lions</span></td>
+                            <td>Kék, fehér</td>
+                        </tr>
+                        <tr>
+                            <td><span lang="en">Wilkes-Meyer</span></td>
+                            <td><span lang="en"></span>Hornets</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <p>Egy <span lang="en">Exy</span> csapatban a játékosok négyféle pozíciót tölthetnek be: csatár, díler, hátvéd és kapus. A csatárok támadó játékosok, akiknek a céljuk, hogy a labdát az ellenfél kapujába juttassák. Ők a játék kezdetén a felezővonalon állnak, a kezdő csapat csatárai a pálya közepéhez, míg az ellenfélé a pálya széléhez közelebb. A dílerek a középső játékosok, ők létesítenek kapcsolatot a csatárok és a hátvédek között, valamint ők hajtják végre a játék kezdetén a szervát. Egy díler specializálódhat támadó vagy védekező játékosnak és e szerint be is lehet állítani plusz csatárnak, vagy hátvédnek, ha szükséges. Ők a saját kapujukhoz közelebb lévő negyedpályát jelző vonalon helyezkednek el és közre veszi őket a saját csapatuk két pályán lévő hátvéde. A hátvédek védekező játékosok, akik az ellenfél csatárait próbálják megállítani a kapura lövésben. A csapat utolsó pozícióját a kapus tölti be. Ő védi a gólt, ő az utolsó védvonal.</p>
+                    <p>A pályán egy csapatnak maximum 6 játékosa tartózkodhat játék közben. Ez általában két csatárt, egy dílert, két hátvédet és egy kapust jelent, ám a csapat edzője felküldhet a kapus helyett egy másik játékost a pályára, például még egy csatárt, ám ekkor a kapu védtelen marad, ezért nem szoktak ezzel a lehetőséggel élni.</p>
+                    <p>Egy <abbr title="National Collegiate Athletics Association">NCAA</abbr> csapatnak a minimum létszáma 9 fő, 6 játékos a pályán, és minden pozícióra egy csere, mínusz a kapus. Ez a szabály azonban felülbírálás alatt áll és a javaslat 12 emberre emelné a határt.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="felszereles" accesskey="3">
+            <h2>A felszerelés</h2>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <ul>
+                        <li><b>Az ütők:</b><br>
+                        A játékosok ütőket használnak a labda irányítására játék közben. Az ütők mérete, súlya és az ütőben lévő háló mélysége is változó egyes játékosoknál. A támadó pozícióban lévő játékosok ütője általában alumíniumból készül, a lövések pontossága és a gyorsaság miatt, míg a védekező játékosok ütője fából van, ami a súlya miatt nagyobb erőkifejtésre alkalmas. Az ütők szára 30-45 hüvelyk (76-114 cm) hosszúságú, a játékos magasságától függően. A kapusnak van a leghosszabb ütője, ami egy 4 láb (122 cm) hosszúságú szárból és egy 1,5 x 2 láb (46x61 cm) területű fejrészből áll. A hálók mélysége is változik, a játékos posztja által. A kapus ütőjének a hálója szinte teljesen lapos, hogy könnyebben el tudja ütni a felé száguldó labdát. A hátvédek hálójának már van egy kis mélysége, ám még nem megfelelőek a labda hordozására, ami nem meglepő, mivel minél tovább van a labda a kapu közelében annál nagyobb az esély arra, hogy a másik csapat megszerzi és kapura lő. A csatárok hálója mélyebb, hogy fel tudják venni a számukra tökéletes pózt a lövéshez. A legmélyebb hálót pedig a dílerek birtokolják, ami lehetővé teszi a labda hordozását a védekező és a támadó játékosok között.</li>
+                        <li><b>A labda:</b><br>
+                        Az <span lang="en">Exy</span> labda nagyából ökölnyi méretű és megfelelően súlyozott a pattintásokhoz. Feltehetően gumiból vagy műanyagból készül.</li>
+                        <li><b>Védőfelszerelés:</b><br>
+                        A védőfelszereléseket két csoportba lehet sorolni, vannak a kötelezők és az ajánlottak. A kötelező védőfelszerelések közé tartozik a sisak, a mellkas- és a válltömés, a nyakvédő, a sípcsontvédő és a kesztyű, ami védi a játékosok ujjait. Ezek viselése kötelező a pályán kivéve, ha a játék éppen áll. Az ajánlott felszerelések közé tartozik a fejpánt, ami segít a játékos haját a megfelelő helyen tartani, valamint a combvédő és a fogvédő.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <img class="img-fluid" src="media/exy_raquets.png" alt="A képen a különböző posztoknak készített Exy ütők láthatóak." title="Exy ütők">
+                    <a href="media/exyball.png" target="_blank"><img class="img-fluid" src="media/exyballkicsi.png" alt="Egy Exy labda" title="Egy Exy labda - Nagyobb változatért kattints!"></a>
+                    <figure>
+                        <video controls src="media/Fel_a_kanapéról!_A_fallabda,_amitől_a_kislábujj_is_elfárad_Full-HD.mp4" poster="media/video.png"></video>
+                        <figcaption>
+                            <p>A videó az Exy labda pattogásának és az ütű megfelelő használatának a fontosságát szemlélteti a fallabda segítségével.</p>
+                            <a class="video" href="video_leirat.html" target="_blank">Videó leírása</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>            
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <p>Források:</p>
+                <a href="https://foxhole-court.fandom.com/wiki/Exy#Court%5B1%5D" target="_blank">The Foxhole Court Wiki - Pálya</a><br>
+                <a href="https://foxhole-court.fandom.com/wiki/Exy#Positions%5B1%5D" target="_blank">The foxhole Court Wiki - Játékosok</a><br>
+                <a href="https://foxhole-court.fandom.com/wiki/Exy#Known_Teams" target="_blank">The Foxhole Court Wiki – Ismert csapatok</a><br>
+                <a href="https://foxhole-court.fandom.com/wiki/Exy#Equipment%5B1%5D" target="_blank">The Foxhole Court Wiki - Felszerelés</a><br>
+                <a href="https://side-effect-of-the-meds.tumblr.com/post/633139040413253632/i-didnt-fully-realize-until-now-but-andrews" target="_blank">Felszerelés képek</a><br>
+            </div>
+            <div class="col">
+                <p>Készítette:</p>
+                <p>Kosáry Gabriella</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
